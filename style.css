@@ -1,0 +1,276 @@
+body {
+  background-image: url("images/bg-pattern-top.svg"),
+    url("images/bg-pattern-bottom.svg");
+
+  background-size: 70rem, 80rem;
+  background-repeat: no-repeat;
+  background-position-y: -30rem, 25rem;
+  background-position-x: -10rem, 65rem;
+  background-color: hsl(185, 75%, 39%);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-size: 18px;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+.nama {
+  font-weight: 700;
+}
+
+.umur {
+  font-weight: 400;
+}
+
+.location {
+  font-weight: 400;
+}
+
+.detail {
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.card {
+  margin: 4rem 0rem 0rem 0rem;
+  width: 30rem;
+  border-radius: 5%;
+}
+
+.profil {
+  top: 22%;
+  left: 35.5%;
+  width: 30%;
+  position: absolute;
+}
+
+.garis {
+  opacity: 50%;
+  border-top: 1px solid hsl(227, 10%, 46%);
+  padding-left: 12rem;
+  padding-right: 18.1rem;
+  position: relative;
+  right: 4%;
+}
+
+.bg-card {
+  background-image: url("images/bg-pattern-card.svg");
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+}
+
+/*responsive xs screen*/
+@media screen and (min-width: 375px) {
+  body {
+    background-image: url("images/bg-pattern-top.svg"),
+      url("images/bg-pattern-bottom.svg");
+    background-size: 30rem, 80rem;
+    background-repeat: no-repeat;
+    background-position-y: -15rem, 20rem;
+    background-position-x: -10rem, 5rem;
+    background-color: hsl(185, 75%, 39%);
+  }
+  .card {
+    margin: 1rem 0rem 0rem 0rem;
+    width: 20rem;
+    border-radius: 5%;
+  }
+
+  .profil {
+    top: 22%;
+    left: 35.5%;
+    width: 30%;
+    position: absolute;
+  }
+
+  .garis {
+    opacity: 50%;
+    border-top: 1px solid hsl(227, 10%, 46%);
+    padding-left: 12rem;
+    padding-right: 13rem;
+    position: relative;
+    right: 4%;
+  }
+}
+
+/*responsive sm screen*/
+@media screen and (min-width: 576px) {
+  body {
+    background-image: url("images/bg-pattern-top.svg"),
+      url("images/bg-pattern-bottom.svg");
+    background-size: 40rem, 80rem;
+    background-repeat: no-repeat;
+    background-position-y: -20rem, 25rem;
+    background-position-x: -10rem, 15rem;
+    background-color: hsl(185, 75%, 39%);
+  }
+  .card {
+    margin: 6rem 0rem 0rem 1rem;
+    width: 25rem;
+    border-radius: 5%;
+  }
+
+  .profil {
+    top: 22%;
+    left: 35.5%;
+    width: 30%;
+    position: absolute;
+  }
+
+  .garis {
+    opacity: 50%;
+    border-top: 1px solid hsl(227, 10%, 46%);
+    padding-left: 12rem;
+    padding-right: 13rem;
+    position: relative;
+    right: 4%;
+  }
+}
+
+/*responsive md screen*/
+@media screen and (min-width: 768px) {
+  body {
+    background-image: url("images/bg-pattern-top.svg"),
+      url("images/bg-pattern-bottom.svg");
+    background-size: 48rem, 80rem;
+    background-repeat: no-repeat;
+    background-position-y: -30rem, 25rem;
+    background-position-x: -10rem, 25rem;
+    background-color: hsl(185, 75%, 39%);
+  }
+  .card {
+    margin: 5rem 0rem 0rem 5rem;
+    width: 25rem;
+    border-radius: 5%;
+  }
+
+  .profil {
+    top: 22%;
+    left: 35.5%;
+    width: 30%;
+    position: absolute;
+  }
+
+  .garis {
+    opacity: 50%;
+    border-top: 1px solid hsl(227, 10%, 46%);
+    padding-left: 12rem;
+    padding-right: 13rem;
+    position: relative;
+    right: 4%;
+  }
+}
+
+/*responsive lg screen*/
+@media screen and (min-width: 992px) {
+  body {
+    background-image: url("images/bg-pattern-top.svg"),
+      url("images/bg-pattern-bottom.svg");
+
+    background-size: 50rem, 80rem;
+    background-repeat: no-repeat;
+    background-position-y: -30rem, 25rem;
+    background-position-x: -10rem, 30rem;
+    background-color: hsl(185, 75%, 39%);
+  }
+
+  .card {
+    margin: 4rem 0rem 0rem 0rem;
+    width: 30rem;
+    border-radius: 5%;
+  }
+
+  .profil {
+    top: 22%;
+    left: 35.5%;
+    width: 30%;
+    position: absolute;
+  }
+
+  .garis {
+    opacity: 50%;
+    border-top: 1px solid hsl(227, 10%, 46%);
+    padding-left: 12rem;
+    padding-right: 18.1rem;
+    position: relative;
+    right: 4%;
+  }
+}
+
+/*responsive xl screen*/
+@media screen and (min-width: 1200px) {
+  body {
+    background-image: url("images/bg-pattern-top.svg"),
+      url("images/bg-pattern-bottom.svg");
+
+    background-size: 55rem, 80rem;
+    background-repeat: no-repeat;
+    background-position-y: -30rem, 25rem;
+    background-position-x: -10rem, 40rem;
+    background-color: hsl(185, 75%, 39%);
+  }
+
+  .card {
+    margin: 4rem 0rem 0rem 0rem;
+    width: 30rem;
+    border-radius: 5%;
+  }
+
+  .profil {
+    top: 22%;
+    left: 35.5%;
+    width: 30%;
+    position: absolute;
+  }
+
+  .garis {
+    opacity: 50%;
+    border-top: 1px solid hsl(227, 10%, 46%);
+    padding-left: 12rem;
+    padding-right: 18.1rem;
+    position: relative;
+    right: 4%;
+  }
+}
+
+/*responsive xxl screen*/
+@media screen and (min-width: 1400px) {
+  body {
+    background-image: url("images/bg-pattern-top.svg"),
+      url("images/bg-pattern-bottom.svg");
+
+    background-size: 70rem, 80rem;
+    background-repeat: no-repeat;
+    background-position-y: -30rem, 25rem;
+    background-position-x: -10rem, 60rem;
+    background-color: hsl(185, 75%, 39%);
+  }
+
+  .card {
+    margin: 4rem 0rem 0rem 0rem;
+    width: 30rem;
+    border-radius: 5%;
+  }
+
+  .profil {
+    top: 22%;
+    left: 35.5%;
+    width: 30%;
+    position: absolute;
+  }
+
+  .garis {
+    opacity: 50%;
+    border-top: 1px solid hsl(227, 10%, 46%);
+    padding-left: 12rem;
+    padding-right: 18.1rem;
+    position: relative;
+    right: 4%;
+  }
+}
